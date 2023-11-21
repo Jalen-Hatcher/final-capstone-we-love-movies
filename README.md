@@ -6,7 +6,8 @@ critics - Consists of critic-related information including a critic_id, preferre
 theaters - Consists of various theaters showing movies within the movies table. Columns include: theater_id (primary key), name (name of theater), address_line_1, address_line_2, city, state, and zip.  
 movies_theaters - Conjoining table representing a many-to-many relationship between movies and theaters. Columns include movie_id (foreign key to movies), theater_id (foreign key to theaters), is_showing (tells whether or not amovie showing at a particular theater).  
 reviews - Represents the reviews of critics in the critics table (many-to-one) for certain movies. Contains a review_id (primary_key), content (content of the review), score (score as supplied by a review), movie_id  
-(foreign key to movies), critic_id (foreign key to critics).
+(foreign key to movies), critic_id (foreign key to critics). Here is an ERD of the database schema:  
+https://lucid.app/lucidchart/fd2e9289-1d07-4f47-8073-62f65a795f8f/edit?invitationId=inv_87279165-f4e7-4be9-acbc-d73b7ce0ff32
 # Routes
 See docs.
 # Links
