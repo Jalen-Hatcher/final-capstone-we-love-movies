@@ -1,5 +1,5 @@
 # final-capstone-we-love-movies
-Final Capstone for Thinkful's Backend Web Development Course. This is a backend, RESTful API for a hypothetical web application "We Love Movies", which provides various movie details.
+Final Capstone for Thinkful's Backend Web Development Course. This is a backend, RESTful API for the web application, "We Love Movies", which provides various movie details.
 # Database Tables
 movies - Consists of a primary key movie_id, title, runtime_in_minutes, rating, image_url, and a description for each movie.
 
