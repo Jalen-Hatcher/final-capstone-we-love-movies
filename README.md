@@ -9,6 +9,7 @@ reviews - Represents the reviews of critics in the critics table (many-to-one) f
 (foreign key to movies), critic_id (foreign key to critics).
 # Routes
 See docs.
-# Link
-https://we-love-movies-dg2h.onrender.com
+# Links
+Backend: https://we-love-movies-dg2h.onrender.com  
+Frontend: https://we-love-movies-front-end-07d5.onrender.com
 
